@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./public/img/favicon.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./public/style/style.css">
+
+    <title>My Account</title>
+</head>
+<body>
+
+ <!-- Navbar -->
+    <div id="top_nav">
+        <div class="d-flex justify-content-evenly align-items-center">
+            <div class="mx-2 top_nav_number">
+                <ul>
+                    <li class="top_nav_email">
+                        <a href="mailto:info@larosacoxbd.com"><i class="fa-solid fa-envelope"></i> info@larosacoxbd.com</a>
+                    </li>
+                    <li class="top_nav_phone">
+                        <a href="https://wa.me/01707331827"><i class="fa-brands fa-whatsapp"></i> +880 1707-331827</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mx-2 top_nav_social">
+                <div class="d-flex justify-content-center align-items center gap-4">
+                    <div id="top_nav_social_icon">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/ctglawyers"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/mohammed-nasir-ullah-3b009b218/"><i class="fa-brands fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Main Navbar -->
+     <div id="main_navbar">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-around align-items-center">
+                <div>
+                    <a href="./index.html">
+                        <img class="main_navbar_logo" src="./public/image/logo.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <div id="search_option">
+                        <div class="input-group mb-1">
+                            <input type="text" class="form-control form-control-lg" placeholder="Search Products ..." aria-label="" aria-describedby="button-addon2">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                       <div class="container-fluid">
+
+                       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                       </button>
+                           <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                               <div class="offcanvas-header">
+                                   <img src="./public/image/logo.png" alt="">
+                                   <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                               </div>
+                               <ul class="navbar-nav ms-lg-auto mx-0 mb-2 mb-lg-0">
+                                   <li class="nav-item">
+                                       <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a href="./our-menu.html" class="nav-link">Products</a>
+                                    </li>
+                                   <li class="nav-item">
+                                       <a href="./about-us.html" class="nav-link">About Us</a>
+                                   </li>
+                                   <li class="nav-item">
+                                       <a href="./blog.html" class="nav-link">Blog</a>
+                                   </li>
+                                   <li class="nav-item">
+                                       <a href="./contact-us.html" class="nav-link">Contact Us</a>
+                                   </li>
+                               </ul>
+                           </div>
+                       </div>
+                   </nav>
+                </div>
+                <div id="navbar_mobile_hide_icon">
+                    <ul class="navbar_right_icon">
+                        <li><a href="./login.html"><i class="fa-regular fa-circle-user"></i></a></li>
+                        <li><a href="./cart.html"><i class="fa-solid fa-bag-shopping"></i><sup>0</sup></a></li>
+                        <li><a href="./favourite.html"><i class="fa-solid fa-heart"></i><sup>0</sup></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </div>
+    
+    <!-- Navbar -->
+
+
+ <!-- Breadcrum -->
+  <div id="breadcrumb">
+    <div class="container">
+        <div class="text-center">
+            <h1>My Account</h1>
+            <p><a href="/">Home</a> | My Account</p>
+        </div>
+    </div>
+  </div>
+ <!-- Breadcrum -->
+
+
+<!-- Main Section -->
+<section>
+    <div id="account_page">
+        <div class="container">
+
+            <div class="my-5">
+                <h2><i>Hello,</i> <b>User Name</b></h2>
+                <p>You can manage your profile and orders from here</p>
+            </div>
+
+            <ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="dashboard-tab" data-bs-toggle="tab" data-bs-target="#dashboard-tab-pane" type="button" role="tab" aria-controls="dashboard-tab-pane" aria-selected="true"><i class="fa-solid fa-laptop"></i> Dashboard</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="orders-tab" data-bs-toggle="tab" data-bs-target="#orders-tab-pane" type="button" role="tab" aria-controls="orders-tab-pane" aria-selected="false"><i class="fa-solid fa-cart-shopping"></i> Orders</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="download-tab" data-bs-toggle="tab" data-bs-target="#download-tab-pane" type="button" role="tab" aria-controls="download-tab-pane" aria-selected="false"><i class="fa-solid fa-download"></i> Downloads</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="address-tab" data-bs-toggle="tab" data-bs-target="#address-tab-pane" type="button" role="tab" aria-controls="address-tab-pane" aria-selected="false"><i class="fa-solid fa-address-book"></i> Shipping Address</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="account-tab" data-bs-toggle="tab" data-bs-target="#account-tab-pane" type="button" role="tab" aria-controls="account-tab-pane" aria-selected="false"><i class="fa-solid fa-circle-exclamation"></i> Account Details</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="logout-tab" data-bs-toggle="tab" data-bs-target="#logout-tab-pane" type="button" role="tab" aria-controls="logout-tab-pane" aria-selected="false"><i class="fa-solid fa-right-from-bracket"></i> Logout</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="dashboard-tab-pane" role="tabpanel" aria-labelledby="dashboard-tab" tabindex="0">
+                    <div class="my-5">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 mt-4">
+                                <div>
+                                    <h4>Total Order</h4>
+                                    <canvas id="orderChart"></canvas>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 mt-4">
+                                <div>
+                                    <h4>Total Customer</h4>
+                                    <canvas id="customerChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="orders-tab-pane" role="tabpanel" aria-labelledby="orders-tab" tabindex="0">
+                    <div class="my-5">
+                        <div class="table-responsive">
+                            <table class="table table-striped-columns table-hover">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Order</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Items</th>
+                                    <th scope="col">Total</th>
+                                  </tr>
+                                </thead>
+                                <tbody class="table-group-divider">
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>#458</td>
+                                    <td>May 25, 18</td>
+                                    <td>Completed</td>
+                                    <td>2</td>
+                                    <td>$235</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>#758</td>
+                                    <td>May 25, 18</td>
+                                    <td>Completed</td>
+                                    <td>1</td>
+                                    <td>$75</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>#158</td>
+                                    <td>May 25, 18</td>
+                                    <td>Completed</td>
+                                    <td>1</td>
+                                    <td>$42</td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="download-tab-pane" role="tabpanel" aria-labelledby="download-tab" tabindex="0">
+                    <div class="my-5">
+                        <div class="table-responsive">
+                            <table class="table table-striped-columns table-hover">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Order</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Items</th>
+                                    <th scope="col">Total</th>
+                                  </tr>
+                                </thead>
+                                <tbody class="table-group-divider">
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>#458</td>
+                                    <td>May 25, 18</td>
+                                    <td>Download Completed</td>
+                                    <td>2</td>
+                                    <td>$235</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>#758</td>
+                                    <td>May 25, 18</td>
+                                    <td>Download Completed</td>
+                                    <td>1</td>
+                                    <td>$75</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>#158</td>
+                                    <td>May 25, 18</td>
+                                    <td>Download Completed</td>
+                                    <td>1</td>
+                                    <td>$42</td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="address-tab-pane" role="tabpanel" aria-labelledby="address-tab" tabindex="0">
+                    <div class="my-5">
+                        <p>Phone Number</p>
+                        <h4>+880 1457-841112</h4>
+                        <hr>
+                        <p>Shipping Address</p>
+                        <h4>Uttara, Dhaka - 1230</h4>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="account-tab-pane" role="tabpanel" aria-labelledby="account-tab" tabindex="0">
+                    <div class="my-5">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <label for="" class="mt-3">Name</label>
+                                    <input type="text" class="form-control form-control-lg" placeholder="name" required>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="" class="mt-3">Email (Optional)</label>
+                                    <input type="text" class="form-control form-control-lg" placeholder="Email">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="" class="mt-3">Phone Number</label>
+                                    <input type="text" class="form-control form-control-lg" placeholder="Number" required>
+                                </div>
+                                <div class="col-lg-12">
+                                    <label for="" class="mt-3">Shipping Address</label>
+                                    <textarea name="" class="form-control form-control-lg" placeholder="Write your address" rows="3" id="" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="mt-4">
+                                <button type="submit" class="btn btn-lg saveChangeBtn">Save Change</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="logout-tab-pane" role="tabpanel" aria-labelledby="logout-tab" tabindex="0">
+                    <div class="my-5 text-center">
+                        <button type="submit" class="btn btn-lg logout_btn">Logout <i class="fa-solid fa-right-from-bracket"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Main Section -->
+
+
+    <!-- Bottom Menu -->
+       <div id="bottombar_icon">
+            <ul>
+                <li><a href="./index.html"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="./cart.html"><i class="fa-solid fa-bag-shopping"></i><sup>0</sup></a></li>
+                <li><a href="./favourite.html"><i class="fa-solid fa-heart"></i><sup>0</sup></a></li>
+                <li><a href="./login.html"><i class="fa-regular fa-circle-user"></i></a></li>
+            </ul>
+       </div>
+      <!-- Bottom Menu -->
+
+
+<!-- Footer -->
+<footer>
+    <div>
+        <div class="footer_first_part">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-4 my-3">
+                        <h3>Traditional Recipes for
+                            Your Delight</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-4 my-3">
+                        <div class="d-flex justify-content-start align-items-center gap-4">
+                            <div>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <p class="mb-0"><b>Our Address:</b></p>
+                                <p class="mb-0">256th North Neusvill Avenue, 19302, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 my-3">
+                        <div class="d-flex justify-content-start align-items-center gap-4">
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <p class="mb-0"><b>Phone Number:</b></p>
+                                <p class="mb-0">0-800-525-00-250</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer_second_part">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div>
+                            <img src="./public/image/logo.png" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo magnam atque....</p>
+
+                            <a href="/about-us" class="btn footer_learn_more_btn mt-4">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="mb-4">Quick Link</h5>
+                        <ul class="quick_link_menu">
+                            <li><a href="./index.html"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+                            <li><a href="./about-us.html"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+                            <li><a href="./our-menu.html"><i class="fa-solid fa-angle-right"></i> Online Menu</a></li>
+                            <li><a href="./blog.html"><i class="fa-solid fa-angle-right"></i> Blog</a></li>
+                            <li><a href="./contact-us.html"><i class="fa-solid fa-angle-right"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="mb-4">Support</h5>
+                        <ul class="support_link_menu">
+                            <li><a href="./faq.html"><i class="fa-solid fa-angle-right"></i> FAQ</a></li>
+                            <li><a href="./terms-and-conditions.html"><i class="fa-solid fa-angle-right"></i> Terms & Conditions</a></li>
+                            <li><a href="./privacy-policy.html"><i class="fa-solid fa-angle-right"></i> Privacy Policy</a></li>
+                            <li><a href="./disclaimer.html"><i class="fa-solid fa-angle-right"></i> Disclaimer</a></li>
+                            <li><a href="./refund-policy.html"><i class="fa-solid fa-angle-right"></i> Refund Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="mb-4">Subscribe</h5>
+                        <h6>Keep up to date with us</h6>
+                        <p>Sign up to be the first to receive special news and event updates from us.</p>
+                        <form action="">
+                            <div class="input-group my-4">
+                                <input type="text" class="form-control form-control-lg" placeholder="Subscribe" aria-label="Subscribe" aria-describedby="button-addon2">
+                                <button class="btn subscribe_btn" type="button" id="button-addon2"><i class="fa-regular fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+
+                        <div class="footer_social_media">
+                            <ul>
+                                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copywrite_part">
+            <div class="container">
+                <div class="text-center">
+                    <p class="mb-0">© <span id="copyDate"></span> LaRosa Cox BD. All Right Reserved. | Design & Development By :- <a href="https://www.digitalmarketingbd.com/">Digital Marketing Solution (Pvt.) Ltd.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+
+<!-- Back to Top -->
+<button
+    type="button" class="btn btn-floating"
+    id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+<!-- Back to Top -->
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<!-- Custom JS -->
+<script src="./public/js/app.js"></script>
+
+<!-- Chart -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const ctx1 = document.getElementById('orderChart');
+  
+    new Chart(ctx1, {
+      type: 'bar',
+      data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+          label: '# of Votes',
+          backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+                'rgba(255, 205, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(201, 203, 207, 0.2)'
+            ],
+          data: [12, 19, 3, 5, 2, 3],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+
+    const ctx2 = document.getElementById('customerChart');
+
+    new Chart(ctx2, {
+      type: 'line',
+      data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+          label: '# of Votes',
+          data: [12, 19, 3, 5, 2, 3],
+          borderWidth: 1,
+          borderColor: 'rgb(75, 192, 192)',
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
+<!-- Chart -->
+
+<!-- Copyright Script -->
+<script>
+
+    //Get the button
+    let mybutton = document.getElementById("btn-back-to-top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+        ) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    mybutton.addEventListener("click", backToTop);
+
+    function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    const copyright = document.getElementById("copyDate")
+    
+    const copyDate = new Date().getFullYear()
+    copyright.innerText = copyDate
+</script>
+<!-- Copyright Script -->
+
+</body>
+</html>
