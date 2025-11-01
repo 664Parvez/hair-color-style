@@ -58,6 +58,15 @@
         </div>
     </div>
 
+    <!-- mobile search -->
+      <div id="mobile_search_option">
+            <div class="input-group mb-1">
+                <input type="text" class="form-control form-control-lg" placeholder="Search Products ..." aria-label="" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+     <!-- mobile search -->
+
     <!-- Main Navbar -->
     <div id="main_navbar">
         <div class="container-fluid">
@@ -429,7 +438,7 @@
         <div class="footer_copywrite_part">
             <div class="container">
                 <div class="text-center">
-                    <p class="mb-0">© <span id="copyDate"></span> LaRosa Cox BD. All Right Reserved. | Design & Development By :- <a href="https://www.digitalmarketingbd.com/">Digital Marketing Solution (Pvt.) Ltd.</a></p>
+                    <p class="mb-0">© <span id="copyDate"></span> Hair Style Factory. All Right Reserved. | Design & Development By :- <a href="https://www.digitalmarketingbd.com/">Digital Marketing Solution (Pvt.) Ltd.</a></p>
                 </div>
             </div>
         </div>
@@ -452,41 +461,6 @@
 <!-- Custom JS -->
 <script src="./public/js/app.js"></script>
 
-<!-- Copyright Script -->
-<script>
-
-    //Get the button
-    let mybutton = document.getElementById("btn-back-to-top");
-
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-        scrollFunction();
-    };
-
-    function scrollFunction() {
-        if (
-            document.body.scrollTop > 20 ||
-            document.documentElement.scrollTop > 20
-        ) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
-        }
-    }
-    // When the user clicks on the button, scroll to the top of the document
-    mybutton.addEventListener("click", backToTop);
-
-    function backToTop() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-
-    const copyright = document.getElementById("copyDate")
-    
-    const copyDate = new Date().getFullYear()
-    copyright.innerText = copyDate
-</script>
-<!-- Copyright Script -->
 
 </body>
 </html>
