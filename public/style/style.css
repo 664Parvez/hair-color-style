@@ -464,6 +464,64 @@ nav .btn:hover {
 /* Home Page */
 
 
+/* About Us Page */
+.about_first_section {
+    padding: 40px 0;
+}
+.about_first_section img {
+    border-radius: 10px;
+    width: 100%;
+}
+.about_second_section {
+    padding: 40px 0;
+    background-color: var(--offwhite-color);
+}
+.about_second_section img {
+    border-radius: 10px;
+    width: 100%;
+}
+.about_third_section {
+    padding: 40px 0;
+}
+.about_forth_section h2 {
+    font-size: 50px;
+    color: var(--white-color);
+}
+.about_forth_section {
+    padding: 150px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../image/Desktop_Banner_2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.about_forth_section .btn {
+    background-color: var(--offwhite-color);
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .about_first_section {
+        padding: 30px 0;
+    }
+    .about_second_section {
+        padding: 30px 0;
+        background-color: var(--offwhite-color);
+    }
+    .about_second_section img {
+        margin-bottom: 20px;
+    }
+    .about_third_section {
+        padding: 30px 0;
+    }
+    .about_forth_section {
+        padding: 50px 0;
+    }
+    .about_forth_section h2 {
+        font-size: 30px;
+    }
+}
+/* About Us Page */
+
+
 /* Contact Us Page */
 
 /* Form */
