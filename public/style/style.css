@@ -483,6 +483,9 @@ nav .btn:hover {
 .about_third_section {
     padding: 40px 0;
 }
+.about_third_section img {
+    width: 100px;
+}
 .about_forth_section h2 {
     font-size: 50px;
     color: var(--white-color);
