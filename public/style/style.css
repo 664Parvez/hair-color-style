@@ -78,6 +78,17 @@ h1,h2,h3,h4,h5,h6 {
     font-family: var();
 } */
 
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
 /* Breadcrumb */
 #breadcrumb {
     margin: 50px 0;
@@ -315,6 +326,79 @@ nav .btn:hover {
 
 /* Home Page */
 
+/* Color */
+.hair_color_section {
+    padding: 40px 0;
+}
+.hair_color_section img {
+    border-radius: 15px;
+}
+/* Color */
+
+/* Home Products */
+.home_product_section {
+    padding: 40px 0;
+}
+.home_product_section h3 {
+    font-size: 40px;
+}
+.home_product_section .btn {
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+}
+.home_product_section .btn:hover {
+    background-color: var(--third-color);
+    color: var(--offwhite-color);
+}
+.product_home_hair li {
+    width: 20px;
+    display: inline-block;
+}
+.product_home_hair li i {
+    font-size: 24px;
+    color: var(--third-color);
+}
+.productSwiper h5 {
+    color: var(--first-color);
+}
+.productSwiper h5 span {
+    text-decoration: line-through;
+    font-size: 14px;
+}
+/* Home Products */
+
+/* Popular Product */
+.home_popular_product_section {
+    padding: 40px 0;
+}
+.home_popular_product_section h3 {
+    font-size: 40px;
+}
+.home_popular_product_section .btn {
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+}
+.home_popular_product_section .btn:hover {
+    background-color: var(--third-color);
+    color: var(--offwhite-color);
+}
+.product_home_hair li img {
+    width: 20px;
+    display: inline-block;
+}
+.product_home_hair li i {
+    font-size: 24px;
+    color: var(--third-color);
+}
+.home_popular_product_section h5 {
+    color: var(--first-color);
+}
+.home_popular_product_section h5 span {
+    text-decoration: line-through;
+    font-size: 14px;
+}
+/* Popular Product */
+
 /* Choose Section */
 .why_choose_section {
     padding: 40px 0;
@@ -339,6 +423,9 @@ nav .btn:hover {
 .about_point_section h3 {
     font-size: 50px;
 }
+.about_point_section img {
+    width: 80px;
+}
 /* Home About Point */
 
 /* Home About Us */
@@ -360,6 +447,20 @@ nav .btn:hover {
     background-color: var(--third-color);
 } 
 /* Home About Us */
+
+/* Home Reviews */
+.review_section {
+    padding: 40px 0;
+}
+.review_section h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.home_review_star li {
+    display: inline-block;
+    font-size: 22px;
+}
+/* Home Reviews */
 
 /* banner Three */
 #banner_three {
@@ -426,6 +527,27 @@ nav .btn:hover {
 /* Subscribe */
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
+    .hair_color_section {
+        padding: 30px 0;
+    }
+    .home_product_section {
+        padding: 30px 0;
+    }
+    .home_product_section h3 {
+        font-size: 30px;
+    }
+    .productSwiper .d-flex {
+        display: block !important;
+    }
+    .productSwiper .d-flex h5 {
+        margin-top: 10px;
+    }
+    .home_popular_product_section {
+        padding: 30px 0;
+    }
+    .home_popular_product_section h3 {
+        font-size: 30px;
+    }
     .home_blog_section {
         padding: 30px 0;
     }
@@ -458,6 +580,12 @@ nav .btn:hover {
     }
     #banner_three h4 {
         font-size: 20px;
+    }
+    .review_section {
+        padding: 30px 0;
+    }
+    .review_section h3 {
+        font-size: 30px;
     }
 }
 

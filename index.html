@@ -13,6 +13,9 @@
     <!-- Fontawsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <!-- custom css -->
     <link rel="stylesheet" href="./public/style/style.css">
 
@@ -130,22 +133,524 @@
      <!-- Main Section -->
       <section>
         <div class="slider_section">
-            
+            <!-- Swiper -->
+            <div class="swiper sliderSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./public/image/slider1.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./public/image/slider2.webp" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./public/image/slider3.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
       </section>
 
       <section>
         <div class="hair_color_section">
             <div class="container">
-
+                <!-- Swiper -->
+                <div class="swiper colorSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./public/image/c1.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./public/image/c2.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./public/image/c3.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./public/image/c4.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./public/image/c5.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./public/image/c6.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./public/image/c7.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./public/image/c8.jfif" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
         </div>
       </section>
 
       <section>
-        <div class="product_section">
+        <div class="home_product_section">
             <div class="container">
-                
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h3>Featured Products</h3>
+                    </div>
+                    <div>
+                        <a href="" class="btn btn-lg">All Products</a>
+                    </div>
+                </div>
+
+                <div class="swiper productSwiper mt-4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0"><span>Tk 45,000</span> Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="home_popular_product_section">
+            <div class="container">
+                <div class="text-center">
+                    <h3>Popular Products</h3>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-lg-4 col-md-6 mt-3">
+                        <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-3">
+                        <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-3">
+                        <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-3">
+                        <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-3">
+                        <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-3">
+                        <div class="card">
+                                <div class="product_img">
+                                    <a href="./product-single.html">
+                                        <img src="./public/image/product1.jpg" alt="" class="card-img product-img">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <a href="./product-single.html">
+                                        <h5 class="py-3">Silk Seam™ Clip-In, Mochachino Brown</h5>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <a href="" class="btn">Add To Cart</a>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Tk 30,500</h5>
+                                        </div>
+                                    </div>
+
+                                    <p class="mb-0 mt-3">Silk Seam Clip-In</p>
+                                    <ul class="product_home_hair">
+                                        <li><img src="./public/image/c1.webp" alt=""></li>
+                                        <li><img src="./public/image/c2.jpg" alt=""></li>
+                                        <li><img src="./public/image/c3.jpg" alt=""></li>
+                                        <li><img src="./public/image/c4.jpg" alt=""></li>
+                                        <li><a href="./product-single.html"><i class="fa-regular fa-square-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
       </section>
@@ -174,7 +679,7 @@
                     <div class="col-lg-3 col-md-6 mt-3">
                         <div class="card">
                             <div class="card-body text-center">
-                                <img src="" alt="">
+                                <img src="./public/image/i1.png" alt="">
                                 <h3>100%</h3>
                                 <h5>Human Hair</h5>
                             </div>
@@ -183,7 +688,7 @@
                     <div class="col-lg-3 col-md-6 mt-3">
                         <div class="card">
                             <div class="card-body text-center">
-                                <img src="" alt="">
+                                <img src="./public/image/i2.png" alt="">
                                 <h3>100%</h3>
                                 <h5>International Quality</h5>
                             </div>
@@ -192,7 +697,7 @@
                     <div class="col-lg-3 col-md-6 mt-3">
                         <div class="card">
                             <div class="card-body text-center">
-                                <img src="" alt="">
+                                <img src="./public/image/i3.png" alt="">
                                 <h3>100%</h3>
                                 <h5>Worldwide Shipping</h5>
                             </div>
@@ -201,7 +706,7 @@
                     <div class="col-lg-3 col-md-6 mt-3">
                         <div class="card">
                             <div class="card-body text-center">
-                                <img src="" alt="">
+                                <img src="./public/image/i4.png" alt="">
                                 <h3>100%</h3>
                                 <h5>Satified Client</h5>
                             </div>
@@ -233,7 +738,192 @@
       <section>
         <div class="review_section">
             <div class="container">
-                
+                <div class="text-center">
+                    <h3>Customer Reviews</h3>
+                    <p>Reviews - 5.00 ★ (24)</p>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper reviewSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h5>Abbie G.</h5>
+                                        </div>
+                                        <div>
+                                            <small>10/25/2025</small>
+                                        </div>
+                                    </div>
+                                    <ul class="home_review_star">
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                    </ul>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt officia saepe quasi, recusandae dolorem illo veritatis, culpa sed eaque autem sequi suscipit nisi ab ipsum corporis ut quisquam minima magni!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h5>Abbie G.</h5>
+                                        </div>
+                                        <div>
+                                            <small>10/25/2025</small>
+                                        </div>
+                                    </div>
+                                    <ul class="home_review_star">
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                    </ul>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt officia saepe quasi, recusandae dolorem illo veritatis, culpa sed eaque autem sequi suscipit nisi ab ipsum corporis ut quisquam minima magni!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h5>Abbie G.</h5>
+                                        </div>
+                                        <div>
+                                            <small>10/25/2025</small>
+                                        </div>
+                                    </div>
+                                    <ul class="home_review_star">
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                    </ul>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt officia saepe quasi, recusandae dolorem illo veritatis, culpa sed eaque autem sequi suscipit nisi ab ipsum corporis ut quisquam minima magni!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h5>Abbie G.</h5>
+                                        </div>
+                                        <div>
+                                            <small>10/25/2025</small>
+                                        </div>
+                                    </div>
+                                    <ul class="home_review_star">
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                    </ul>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt officia saepe quasi, recusandae dolorem illo veritatis, culpa sed eaque autem sequi suscipit nisi ab ipsum corporis ut quisquam minima magni!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h5>Abbie G.</h5>
+                                        </div>
+                                        <div>
+                                            <small>10/25/2025</small>
+                                        </div>
+                                    </div>
+                                    <ul class="home_review_star">
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                    </ul>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt officia saepe quasi, recusandae dolorem illo veritatis, culpa sed eaque autem sequi suscipit nisi ab ipsum corporis ut quisquam minima magni!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h5>Abbie G.</h5>
+                                        </div>
+                                        <div>
+                                            <small>10/25/2025</small>
+                                        </div>
+                                    </div>
+                                    <ul class="home_review_star">
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                    </ul>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt officia saepe quasi, recusandae dolorem illo veritatis, culpa sed eaque autem sequi suscipit nisi ab ipsum corporis ut quisquam minima magni!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h5>Abbie G.</h5>
+                                        </div>
+                                        <div>
+                                            <small>10/25/2025</small>
+                                        </div>
+                                    </div>
+                                    <ul class="home_review_star">
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                    </ul>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt officia saepe quasi, recusandae dolorem illo veritatis, culpa sed eaque autem sequi suscipit nisi ab ipsum corporis ut quisquam minima magni!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h5>Abbie G.</h5>
+                                        </div>
+                                        <div>
+                                            <small>10/25/2025</small>
+                                        </div>
+                                    </div>
+                                    <ul class="home_review_star">
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                    </ul>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt officia saepe quasi, recusandae dolorem illo veritatis, culpa sed eaque autem sequi suscipit nisi ab ipsum corporis ut quisquam minima magni!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
         </div>
       </section>
@@ -505,9 +1195,133 @@
 
 
     <!-- Custom JS -->
-<script src="./public/js/app.js"></script>
+    <script src="./public/js/app.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".sliderSwiper", {
+            loop: true,
+            autoplay: {
+            delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".productSwiper", {
+      slidesPerView: "auto",
+      spaceBetween: 30,
+    //   grabCursor: true,
+      loop: true,
+            autoplay: {
+            delay: 2500,
+                disableOnInteraction: false,
+            },
+        breakpoints: {
+        300: {
+          slidesPerView: 1.5,
+          spaceBetween: 10,
+        },
+        640: {
+          slidesPerView: 2.5,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2.5,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 3.5,
+          spaceBetween: 30,
+        },
+      },
+      freeMode: true,
+    });
+  </script>
+
+<!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".colorSwiper", {
+      slidesPerView: "auto",
+      spaceBetween: 30,
+      grabCursor: true,
+      loop: true,
+            autoplay: {
+            delay: 2500,
+                disableOnInteraction: false,
+            },
+        breakpoints: {
+        300: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+        },
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 20,
+        },
+        1024: { 
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+      },
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+<!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".reviewSwiper", {
+      slidesPerView: "auto",
+      spaceBetween: 30,
+      grabCursor: true,
+      loop: true,
+            autoplay: {
+            delay: 2500,
+                disableOnInteraction: false,
+            },
+        breakpoints: {
+        300: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      },
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
 
 </body>
 </html>
