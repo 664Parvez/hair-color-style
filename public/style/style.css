@@ -425,6 +425,15 @@ nav .btn:hover {
 }
 /* Popular Product */
 
+/* Video Section */
+#video_section {
+    padding: 40px 0;
+}
+#video_section h3 {
+    font-size: 40px;
+}
+/* Video Section */
+
 /* Choose Section */
 .why_choose_section {
     padding: 40px 0;
@@ -611,6 +620,12 @@ nav .btn:hover {
         padding: 30px 0;
     }
     .review_section h3 {
+        font-size: 30px;
+    }
+    #video_section {
+        padding: 30px 0;
+    }
+    #video_section h3 {
         font-size: 30px;
     }
 }
