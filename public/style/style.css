@@ -385,6 +385,7 @@ nav .btn:hover {
 .product_home_hair li img {
     width: 20px;
     display: inline-block;
+    border-radius: 2px;
 }
 .product_home_hair li i {
     font-size: 24px;
@@ -396,6 +397,21 @@ nav .btn:hover {
 .home_popular_product_section h5 span {
     text-decoration: line-through;
     font-size: 14px;
+}
+.product_img {
+    position: relative;
+}
+#batch {
+    background-color: var(--third-color);
+    color: var(--offwhite-color);
+    position: absolute;
+    top: 0;
+    padding: 2px 15px;
+    border-radius: 5px;
+    margin: 5px;
+}
+#batch p {
+    font-size: 14px !important;
 }
 /* Popular Product */
 
