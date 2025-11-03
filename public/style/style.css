@@ -74,6 +74,10 @@ h1,h2,h3,h4,h5,h6 {
     background: var(--first-color);
 }
 
+.accordion-button:not(.collapsed) {
+    background-color: var(--white-color) !important;
+}
+
 /* body {
     font-family: var();
 } */
@@ -631,6 +635,40 @@ nav .btn:hover {
 }
 
 /* Home Page */
+
+
+/* Product */
+#product_page {
+    padding: 40px 0;
+}
+.product_left {
+    position: sticky;
+    top: 150px;
+}
+.product_left img {
+    width: 100%;
+    border-radius: 10px;
+}
+.product_right .btn {
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+}
+.product_right .card h5 {
+    color: var(--first-color);
+}
+.product_right .btn:hover {
+    background-color: var(--third-color);
+    color: var(--offwhite-color);
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #product_page {
+        padding: 30px 0;
+    }
+    .product_left img {
+        display: none;
+    }
+}
+/* Product */
 
 
 /* About Us Page */
