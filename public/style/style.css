@@ -79,6 +79,13 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--first-color) !important;
 }
 
+.nav-link {
+    color: var(--first-color);
+}
+.nav-link:hover {
+    color: var(--third-color);
+}
+
 /* body {
     font-family: var();
 } */
@@ -676,6 +683,82 @@ nav .btn:hover {
     }
 }
 /* Product */
+
+
+/* Single Products */
+#product_single_page_first {
+    padding-bottom: 30px;
+}
+.single_product_price span {
+    text-decoration: line-through;
+    font-size: 16px;
+}
+#product_single_page_related_product {
+    padding: 40px 0;
+}
+.discount_batch h5 {
+    background-color: var(--third-color);
+    color: var(--offwhite-color);
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.addtocartbtn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+.addtocartbtn:hover {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+.buynowbtn {
+    background-color: var(--third-color);
+    color: var(--white-color);
+}
+.buynowbtn:hover {
+    background-color: var(--third-color);
+    color: var(--white-color);
+}
+#product_single_page_related_product .btn {
+    background-color: var(--first-color);
+    color: var(--offwhite-color);
+}
+#product_single_page_related_product span {
+    text-decoration: line-through;
+    font-size: 16px;
+}
+#product_single_page_related_product .card h5 {
+    color: var(--first-color);
+}
+#product_single_page_related_product .btn:hover {
+    background-color: var(--third-color);
+    color: var(--offwhite-color);
+}
+.product_counter .btn {
+    background-color: var(--second-color);
+    color: var(--offwhite-color);
+}
+.single_review_section form {
+    margin-bottom: 50px;
+}
+.single_review_section .btn {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+.single_review_section .btn:hover {
+    background-color: var(--second-color);
+    color: var(--white-color);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #product_single_page_related_product {
+        padding: 30px 0;
+    }
+    .addtocartbtn {
+        margin-top: 20px;
+    }
+}
+/* Single Products */
 
 
 /* About Us Page */
