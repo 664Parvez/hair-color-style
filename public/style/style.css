@@ -76,6 +76,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .accordion-button:not(.collapsed) {
     background-color: var(--white-color) !important;
+    color: var(--first-color) !important;
 }
 
 /* body {
@@ -165,6 +166,12 @@ h1,h2,h3,h4,h5,h6 {
 #main_navbar .main_navbar_logo {
     width: 100px;
     height: 100%;
+}
+#main_navbar .navbar-nav sup {
+    background-color: var(--third-color);
+    color: var(--offwhite-color);
+    padding: 2px 5px;
+    border-radius: 2px;
 }
 .navbar-toggler:focus {
     box-shadow: none;
