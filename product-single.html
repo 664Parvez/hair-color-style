@@ -181,6 +181,43 @@
                         <hr>
 
                         <form action="">
+
+                            <div class="py-4">
+                                <h4>Select your Shade:</h4>
+                                <div id="shade_img">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                        <label class="form-check-label" for="radioDefault1">
+                                            <img src="./public/image/c1.webp" alt="">
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                                        <label class="form-check-label" for="radioDefault2">
+                                                <img src="./public/image/c2.jpg" alt="">
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault3" checked>
+                                        <label class="form-check-label" for="radioDefault3">
+                                                <img src="./public/image/c3.jpg" alt="">
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault4" checked>
+                                        <label class="form-check-label" for="radioDefault4">
+                                                <img src="./public/image/c4.jpg" alt="">
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault5" checked>
+                                        <label class="form-check-label" for="radioDefault5">
+                                                <img src="./public/image/c5.jpg" alt="">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="row">
                                 <div class="col-lg-6 mt-3">
                                     <label for="">Select Length</label>
@@ -274,8 +311,12 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="review-tab" data-bs-toggle="tab" data-bs-target="#review-tab-pane" type="button" role="tab" aria-controls="review-tab-pane" aria-selected="true">Reviews</button>
                         </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="use-tab" data-bs-toggle="tab" data-bs-target="#use-tab-pane" type="button" role="tab" aria-controls="use-tab-pane" aria-selected="true">How to Use</button>
+                        </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
+
                         <div class="tab-pane fade show active" id="menufacture-tab-pane" role="tabpanel" aria-labelledby="menufacture-tab" tabindex="0">
                             <div class="mt-3">
                                 <p>
@@ -306,6 +347,24 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="tab-pane fade show active" id="use-tab-pane" role="tabpanel" aria-labelledby="use-tab" tabindex="0">
+                            <div class="mt-4">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <img src="./public/image/factory-intro-2_af7fff80-fd17-4387-9195-173b0bb5ee95_800x.jpg" alt="">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p>
+                                            <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </p>
+                                        <p>These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables.</p>
+                                        <p>These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. custom CSS or overriding our default variables.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

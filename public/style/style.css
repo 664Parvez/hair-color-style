@@ -750,6 +750,31 @@ nav .btn:hover {
     color: var(--white-color);
 }
 
+#shade_img img {
+    width: 50px;
+    border-radius: 5px;
+}
+#shade_img .form-check {
+    display: inline-block;
+}
+#use-tab-pane img {
+    width: 100%;
+    border-radius: 10px;
+}
+.form-check {
+    padding-left: 10px;
+}
+.form-check:first-child {
+    padding-left: 0;
+} 
+.form-check-input:checked + .form-check-label img {
+  outline: 2px solid var(--black-color);
+  outline-offset: 2px;
+}
+.form-check-input {
+    display: none;
+}
+
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     #product_single_page_related_product {
         padding: 30px 0;
