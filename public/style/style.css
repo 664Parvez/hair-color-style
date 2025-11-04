@@ -962,7 +962,7 @@ nav .btn:hover {
     font-weight: 400;
 }
 .faq_form_box {
-    background-color: var(--div-color-one);
+    background-color: var(--offwhite-color);
     padding: 20px;
     border-radius: 10px;
 }
