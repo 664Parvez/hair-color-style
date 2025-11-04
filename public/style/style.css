@@ -6,7 +6,8 @@
     --second-color: #C30000;
     --third-color: #5B562D;
     --white-color: #ffffff;
-    --offwhite-color: #fdf7f1;
+    --offwhite-color: #fdf9f1;
+    --rating-color: #ffa600;
     --black-color: #000000;
     --normal-font: "Outfit", sans-serif;
     --heading-font: "Bodoni Moda", serif;
@@ -748,6 +749,37 @@ nav .btn:hover {
 .single_review_section .btn:hover {
     background-color: var(--second-color);
     color: var(--white-color);
+}
+.single_product_rating ul li {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.single_product_rating ul li i {
+    color: var(--rating-color);
+}
+.single_product_img img {
+    width: 100%;
+}
+.single_another_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.single_another_img img {
+  height: auto;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.single_product_left {
+    position: sticky;
+    top: 150px;
+}
+.single_another_img .swiper-slide {
+    margin-right: 0px !important;
 }
 
 #shade_img img {

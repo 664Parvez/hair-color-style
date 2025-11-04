@@ -29,3 +29,8 @@ copyright.innerText = copyDate
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
+
+
+function singleProductImg(image){
+    document.querySelector('.main').src = image;
+}
