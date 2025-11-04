@@ -79,10 +79,41 @@
                 <div>
                     <div id="search_option">
                         <div class="input-group mb-1">
-                            <input type="text" class="form-control form-control-lg" placeholder="Search Products ..." aria-label="" aria-describedby="button-addon2">
+                            <input type="text" class="form-control form-control-lg" id="navbar_search_option" placeholder="Search Products ..." aria-label="" aria-describedby="button-addon2">
                             <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
                         </div>
+
+                        <div class="product_search_output" id="product_search_output">
+                            <a href="">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <div>
+                                        <img src="./public/image/c1.webp" alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Product Name</h6>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0">Tk 12,055</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <hr>
+                            <a href="">
+                                <div class="d-flex justify-content-around align-items-center">
+                                    <div>
+                                        <img src="./public/image/c1.webp" alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0">Product Name</h6>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0">Tk 12,055</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
+                    
                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
                        <div class="container-fluid">
 
@@ -317,6 +348,22 @@
 <!-- Custom JS -->
 <script src="./public/js/app.js"></script>
 
+<script>
+    const navbar_search_option = document.getElementById("navbar_search_option");
+    const product_search_output = document.getElementById("product_search_output");
+
+    // Show results when input is focused
+    navbar_search_option.addEventListener("focus", () => {
+        product_search_output.style.display = "block";
+    });
+
+    // Hide results when clicking outside
+    document.addEventListener("click", (e) => {
+        if (!navbar_search_option.contains(e.target) && !product_search_output.contains(e.target)) {
+            product_search_output.style.display = "none";
+        }
+    });
+</script>
 
 </body>
 </html>

@@ -253,11 +253,29 @@ nav .btn:hover {
 .offcanvas-header img {
     width: 80px;
 }
-
+#search_option {
+    position: relative;
+}
 #search_option .btn {
     background-color: var(--third-color);
     color: var(--offwhite-color);
     border: none;
+}
+.product_search_output {
+    background: var(--white-color);
+    padding: 15px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 500;
+    border-radius: 10px;
+    display: none;
+}
+.product_search_output a {
+    color: var(--black-color);
+}
+.product_search_output img {
+    width: 50px;
+    border-radius: 10px;
 }
 
 #mobile_search_option {
