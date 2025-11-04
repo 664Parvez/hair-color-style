@@ -809,17 +809,17 @@ nav .btn:hover {
     width: 100%;
     border-radius: 10px;
 }
-.form-check {
+#shade_img .form-check {
     padding-left: 10px;
 }
-.form-check:first-child {
+#shade_img .form-check:first-child {
     padding-left: 0;
 } 
-.form-check-input:checked + .form-check-label img {
+#shade_img .form-check-input:checked + .form-check-label img {
   outline: 2px solid var(--black-color);
   outline-offset: 2px;
 }
-.form-check-input {
+#shade_img .form-check-input {
     display: none;
 }
 
