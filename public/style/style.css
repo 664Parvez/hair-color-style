@@ -281,6 +281,10 @@ nav .btn:hover {
     width: 100%;
     left: 50%;
     transform: translate(-45%, -1px);
+    padding:20px;
+}
+.dropdown-menu ul li {
+    padding: 5px 0;
 }
 .dropdown-menu.show {
     display: flex;
@@ -288,6 +292,18 @@ nav .btn:hover {
 
 #mobile_search_option {
     display: none;
+}   
+.dropdown-menu.show .btn {
+    background-color: var(--first-color);
+    animation: animateBtn .5s alternate infinite;
+}
+@keyframes animateBtn {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
 }
 @media only screen and (min-width: 300px) and (max-width: 500px) {
     .dropdown-menu {
@@ -1623,6 +1639,19 @@ nav .btn:hover {
 .custom_order_form img {
     width: 100%;
     border-radius: 10px;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .custom_order_form {
+        padding: 30px 0;
+    }
+    .custom_order_form img {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+    .custom_order_form img {
+        margin-bottom: 20px;
+    }
 }
 /* Custom Order  */
 
